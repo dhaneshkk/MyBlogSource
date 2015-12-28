@@ -1,0 +1,10 @@
+---
+title: A first post
+description: A post describing the why and the how of the technical setup of this blog
+tags: Design
+---
+
+A first post describing the technical setup of this blog, for that is
+what technical blogs usualy do. I started looking around, and these
+were my best options:
+

@@ -1,0 +1,28 @@
+Name:               dhanesh
+Version:            0.1.0.0
+Synopsis:           Personal website of Dhanesh Kasinathan 
+Description:        Personal website of Dhanesh Kasinathan 
+Homepage:           http://dhaneshkk.github.io/
+License:            AllRightsReserved
+License-file:       LICENSE
+Author:             Dhanesh Kasinathan 
+Maintainer:         Dhanesh Kasinathan
+Copyright:          (C) 2015 Dhanesh Kasinathan 
+Category:           Web
+Build-type:         Simple
+Extra-source-files: README.markdown
+Cabal-version:      >= 1.8
+
+Executable dhanesh
+  Main-is:        Main.hs
+  Ghc-options:    -Wall
+  Hs-source-dirs: src
+
+  Build-depends:
+    base      >= 4.6  && < 4.9,
+    binary    >= 0.5  && < 0.8,
+    directory >= 1.2  && < 1.3,
+    filepath  >= 1.3  && < 1.5,
+    hakyll    >= 4.7  && < 4.8,
+    pandoc    >= 1.14 && < 1.16,
+    process   >= 1.1  && < 1.3
